@@ -1,10 +1,11 @@
 import Layout from "./components/Layout";
+import Feed from "./components/Feed"
 
 const Home = () => {
     return(
         <Layout>
             <>
-                <h1>Hello YouTube!</h1>
+                <Feed />
             </> 
         </Layout>      
     );

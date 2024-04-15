@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import fetchFromApi from "../utils/fetch-from-api";
-import SideBar from "./SideBar";
+// import SideBar from ".components/SideBar";
+
+// React's useState & useEffect hooks for filtering the feed
 
 const Feed = () => {
   const [category, setCategory] = useState("new");
